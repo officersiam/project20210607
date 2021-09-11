@@ -1,0 +1,26 @@
+//
+//  testi.scss
+//
+
+.testimonial {
+    transition: all 0.2s ease;
+    .review {
+        background: $gray-100;
+        border: 2px solid $custom;
+        .base {
+            font-weight: 500;
+        }
+    }
+    .name-content {
+        .name, .designation {
+            font-size: 13px;
+        }
+        .name {
+            letter-spacing: 0.8px;
+            font-weight: 500;
+        }
+    }
+    &:hover {
+        transform: translateY(-7px);
+    }
+}
